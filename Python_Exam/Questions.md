@@ -113,8 +113,8 @@ print(data["Hello"])
 ```python
 def gen(num):
     DATA_LEN = 3
-    DATA = range(0, DATA_LEN) # range(0, 3)
-    for n in range(0, num): # range(0, 10)
+    DATA = range(0, DATA_LEN)
+    for n in range(0, num):
         idx = n % DATA_LEN
         yield DATA[idx]
         
